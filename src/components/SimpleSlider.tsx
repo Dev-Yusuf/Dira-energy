@@ -76,7 +76,7 @@ const Swiper: React.FC = () => {
   const CustomPrevArrow: React.FC<SliderArrowProps> = ({ onClick }) => (
     <button
       onClick={onClick}
-      className="slick-arrow left-arrow left-[330px] sm:left-[600px] md:left-[650px] lg:left-[700px] bg-slate-800 bg-opacity-50 px-3 py-2 font-black text-lg text-white rounded-full"
+      className="slick-arrow left-arrow left-[320px] sm:left-[600px] md:left-[650px] lg:left-[700px] bg-slate-800 bg-opacity-50 px-3 py-2 font-black text-lg text-white rounded-full"
       style={{
         position: "absolute",
         bottom: "70px",
@@ -94,7 +94,7 @@ const Swiper: React.FC = () => {
           nextArrow={<CustomNextArrow />}
           prevArrow={<CustomPrevArrow />}>
           <div className="h-full bg-greenText bg-opacity-70">
-            <div className="py-24 px-6 h-full space-y-2 object-cover ml-4 sm:ml-0 text-white transition-transform transform scale-50 slick-current">
+            <div className="py-24 px-6 h-full space-y-2 object-cover ml-6 sm:ml-0 text-white transition-transform transform scale-50 slick-current">
               <h1 className="text-4xl font-semibold leading-normal">
                 Harnessing the power of the sun to redefine energy – Dira
                 Energy, where innovation meets sustainability.
@@ -105,7 +105,7 @@ const Swiper: React.FC = () => {
             </div>
           </div>
           <div className="h-full bg-greenText bg-opacity-70">
-            <div className="py-24 px-6 h-full space-y-2 object-cover  text-white  transition-transform transform scale-50 slick-current">
+            <div className="py-24 px-6 h-full space-y-2 object-cover  ml-6 sm:ml-0  text-white  transition-transform transform scale-50 slick-current">
               <h1 className="text-4xl font-semibold leading-normal">
                 Harvesting the power of the sun for a brighter tomorrow – Dira
                 Energy leading the way in solar innovation.
@@ -117,7 +117,7 @@ const Swiper: React.FC = () => {
           </div>
 
           <div className="h-full bg-greenText bg-opacity-70">
-            <div className="py-[123px] px-6 h-full space-y-2 object-cover  text-white  transition-transform transform scale-50 slick-current">
+            <div className="py-[123px] px-6 h-full space-y-2 object-cover  ml-6 sm:ml-0  text-white  transition-transform transform scale-50 slick-current">
               <h1 className="text-4xl font-semibold leading-normal">
                 Where Renewable Energy Meets Innovation and Community
                 Development.
