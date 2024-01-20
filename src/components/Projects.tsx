@@ -31,7 +31,7 @@ const AnimatedImage: React.FC<AnimatedImageProps> = ({ src }) => {
     <animated.div
       ref={ref}
       style={{ opacity, transform }}
-      className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md min-h-[15rem] lg:min-h-[30rem] items-end overflow-hidden"
+      className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md min-h-[35rem] sm:min-h-[30rem] md:min-h-[25rem] lg:min-h-[30rem] items-end overflow-hidden"
     >
       <img
         src={src}

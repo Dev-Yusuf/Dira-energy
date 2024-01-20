@@ -87,13 +87,13 @@ const Swiper: React.FC = () => {
   );
   return (
     <section className="bg-hero-bg bg-cover h-full ">
-      <div className="max-w-screen-xl -ml-36 lg:-ml-52 lg:-mt-28 relative  lg:w-2/3 justify-start">
+      <div className="h-full bg-greenText bg-opacity-70 max-w-screen-xl -ml-36 lg:-ml-52 lg:-mt-28 relative  lg:w-2/3 justify-start">
         <Slider
           ref={(ref) => (sliderRef.current = ref)}
           {...settings}
           nextArrow={<CustomNextArrow />}
           prevArrow={<CustomPrevArrow />}>
-          <div className="h-full bg-greenText bg-opacity-70">
+          <div className="h-full ">
             <div className="py-24 px-6 h-full space-y-2 object-cover ml-6 sm:ml-0 text-white transition-transform transform scale-50 slick-current">
               <h1 className="text-4xl font-semibold leading-normal">
                 Harnessing the power of the sun to redefine energy – Dira
@@ -104,7 +104,7 @@ const Swiper: React.FC = () => {
               </p>
             </div>
           </div>
-          <div className="h-full bg-greenText bg-opacity-70">
+          <div className="h-full">
             <div className="py-24 px-6 h-full space-y-2 object-cover  ml-6 sm:ml-0  text-white  transition-transform transform scale-50 slick-current">
               <h1 className="text-4xl font-semibold leading-normal">
                 Harvesting the power of the sun for a brighter tomorrow – Dira
@@ -116,8 +116,8 @@ const Swiper: React.FC = () => {
             </div>
           </div>
 
-          <div className="h-full bg-greenText bg-opacity-70">
-            <div className="py-[123px] px-6 h-full space-y-2 object-cover  ml-6 sm:ml-0  text-white  transition-transform transform scale-50 slick-current">
+          <div className="h-full ">
+            <div className="py-[100px] px-6 h-full space-y-2 object-cover  ml-6 sm:ml-0  text-white  transition-transform transform scale-50 slick-current">
               <h1 className="text-4xl font-semibold leading-normal">
                 Where Renewable Energy Meets Innovation and Community
                 Development.

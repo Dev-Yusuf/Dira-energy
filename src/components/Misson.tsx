@@ -53,7 +53,7 @@ const Misson = () => {
             </animated.div>
 
             <animated.div ref={ref} style={visionAnimation}>
-              <div className="space-y-2">
+              <div className="space-y-2 lg:mt-6">
                 <h1 className="text-2xl font-semibold text-greenText lg:text-[32px]">
                   Our Vision
                 </h1>
@@ -93,7 +93,7 @@ const Misson = () => {
                     </p>
                   </div>
                   <div className="flex flex-row space-x-4">
-                    <h1 className="font-bold text-white text-sm h-24  md:h-auto bg-blueText px-4 md:px-6 py-4 md:py-8 lg:p-3">
+                    <h1 className="font-bold text-white text-sm h-24  md:h-auto bg-blueText px-4 md:px-6 py-4 md:py-8 lg:p-6">
                       <span className="text-2xl font-black">02</span> <br /> DIRA
                     </h1>
                     <p className="text-base font-normal text-white">
@@ -107,7 +107,7 @@ const Misson = () => {
                     </p>
                   </div>
                   <div className="flex flex-row  space-x-4 pb-4">
-                    <h1 className="font-bold text-white text-sm h-24  md:h-auto bg-blueText px-4 md:px-6 py-4 md:py-8 lg:p-3">
+                    <h1 className="font-bold text-white text-sm h-24  md:h-auto bg-blueText px-4 md:px-6 py-4 md:py-8 lg:p-6">
                       <span className="text-3xl font-black">03</span> <br /> DIRA
                     </h1>
                     <p className="text-base font-normal text-white">
