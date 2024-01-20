@@ -46,22 +46,27 @@ const AboutUs = () => {
                     beyond harnessing clean, renewable energy – we embrace
                     cutting-edge technology and prioritize community development
                     to create a positive impact on the world around us. Our
-                    company provides turn-key solar PV installations to customers.
-                    We survey, design, procure, install, and commission the
-                    installation for our clients. Whether you’re a homeowner, or
-                    business, electricity costs can make up a large portion of
-                    your monthly expenses. We are committed to delivering you a
-                    service that will save you money, provide reliability, and
-                    realize your eco-friendly dreams. <br /> Dira Energy Ltd has a
-                    group of highly qualified, knowledgeable, motivated staff who
-                    embrace true professionalism and continued human resource
-                    development in renewable energy sector. Our team are driven by
-                    new ideas and skills to offer best solutions with strict
-                    adherence to ethics. In the last 5 years, we have implemented
-                    solar many projects for government organizations,
-                    non-governmental organizations, agencies, colleges/university,
-                    farms as well as estate developer in both rural and urban
-                    electrification in accordance to their needs.
+                    company provides turn-key solar PV installations to
+                    customers. We survey, design, procure, install, and
+                    commission the installation for our clients.{" "}
+                    <span className="hidden md:block">
+                      {" "}
+                      Whether you’re a homeowner, or business, electricity costs
+                      can make up a large portion of your monthly expenses. We
+                      are committed to delivering you a service that will save
+                      you money, provide reliability, and realize your
+                      eco-friendly dreams. <br /> Dira Energy Ltd has a group of
+                      highly qualified, knowledgeable, motivated staff who
+                      embrace true professionalism and continued human resource
+                      development in renewable energy sector. Our team are
+                      driven by new ideas and skills to offer best solutions
+                      with strict adherence to ethics. In the last 5 years, we
+                      have implemented solar many projects for government
+                      organizations, non-governmental organizations, agencies,
+                      colleges/university, farms as well as estate developer in
+                      both rural and urban electrification in accordance to
+                      their needs.
+                    </span>
                   </p>
                 </div>
               </div>
@@ -77,22 +82,25 @@ const AboutUs = () => {
                 <div className="space-y-6 pt-4">
                   <div className="flex flex-row bg-white space-x-4">
                     <h1 className="font-bold text-white text-sm h-24  md:h-auto bg-blueText px-4 md:px-6 py-4 md:py-8 lg:p-6">
-                      <span className="text-3xl font-black">01</span> <br /> DIRA
+                      <span className="text-3xl font-black">01</span> <br />{" "}
+                      DIRA
                     </h1>
                     <p className="text-sm font-normal">
                       <span className="font-medium text-blueText">
                         Sustainable Solutions, Powered by Innovation:
                       </span>{" "}
                       <br /> We harness the power of renewable energy sources,
-                      from solar and wind to bioenergy, employing state-of-the-art
-                      technologies to create efficient and reliable solutions. Our
-                      innovative approach ensures that your energy needs are met
-                      with a minimal environmental footprint.
+                      from solar and wind to bioenergy, employing
+                      state-of-the-art technologies to create efficient and
+                      reliable solutions. Our innovative approach ensures that
+                      your energy needs are met with a minimal environmental
+                      footprint.
                     </p>
                   </div>
                   <div className="flex flex-row bg-white space-x-4">
                     <h1 className="font-bold text-white text-sm h-24  md:h-auto bg-blueText px-4 md:px-6 py-4 md:py-8 lg:p-6">
-                      <span className="text-3xl font-black">02</span> <br /> DIRA
+                      <span className="text-3xl font-black">02</span> <br />{" "}
+                      DIRA
                     </h1>
                     <p className="text-sm font-normal">
                       <span className="font-medium text-blueText">
@@ -100,14 +108,15 @@ const AboutUs = () => {
                       </span>{" "}
                       <br /> Embracing the latest advancements in energy
                       technology, we deliver smart, connected solutions. Our
-                      systems are not just sources of power; they are intelligent
-                      networks that optimize energy production, consumption, and
-                      storage for maximum efficiency.
+                      systems are not just sources of power; they are
+                      intelligent networks that optimize energy production,
+                      consumption, and storage for maximum efficiency.
                     </p>
                   </div>
                   <div className="flex flex-row bg-white space-x-4 pb-4">
                     <h1 className="font-bold text-white text-sm h-24  md:h-auto bg-blueText px-4 md:px-6 py-4 md:py-8 lg:p-6">
-                      <span className="text-3xl font-black">03</span> <br /> DIRA
+                      <span className="text-3xl font-black">03</span> <br />{" "}
+                      DIRA
                     </h1>
                     <p className="text-sm font-normal">
                       <span className="font-medium text-blueText">
@@ -116,8 +125,8 @@ const AboutUs = () => {
                       <br /> Beyond technology, we believe in empowering
                       communities. Our initiatives focus on local development,
                       creating job opportunities, and fostering sustainable
-                      practices. We work hand-in-hand with communities to build a
-                      brighter, cleaner, and more prosperous future for all.
+                      practices. We work hand-in-hand with communities to build
+                      a brighter, cleaner, and more prosperous future for all.
                     </p>
                   </div>
                 </div>
