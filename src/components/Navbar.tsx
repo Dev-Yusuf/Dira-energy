@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logoIcon from "../assets/d‏ira-logo.svg";
+import logoIcon from "../assets/dira-logo.png";
 import { NavLink, useLocation, Link } from "react-router-dom";
 
 
@@ -14,11 +14,11 @@ const Navbar: React.FC = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="bg-gray-500 p-4 border-b ">
+    <nav className="bg-white lg:bg-gray-500 p-4 border-b ">
       <div className="container mx-auto flex justify-between items-center">
         {/* Brand/logo */}
         <NavLink to="/" className="flex items-center" >
-          <img src={logoIcon} alt="Logo" className="mr-2 w-24 bg-white p-1 relative" />
+          <img src={logoIcon} alt="Logo" className="mr-2 w-28 p-1 relative" />
         </NavLink>
 
         {/* Mobile menu button */}
